@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "651130664481",
+    "firebase_url": "https://apugasdbv2.firebaseio.com",
+    "project_id": "apugasdbv2",
+    "storage_bucket": "apugasdbv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651130664481:android:3cc573715bf0b38cae5560",
+        "android_client_info": {
+          "package_name": "com.ebha.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651130664481-ln4pkoecqjkusuqihdsij2rq5hbope1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ebha.adminapp",
+            "certificate_hash": "8a897449be9d22ac9ddc311e7fb8d13b7234a2cf"
+          }
+        },
+        {
+          "client_id": "651130664481-aho67q1v0k6jm9qv77tjgut9hndkqtje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBEWv9g3Bwz97RB5OXGaxqe38xzESqv4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651130664481-aho67q1v0k6jm9qv77tjgut9hndkqtje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

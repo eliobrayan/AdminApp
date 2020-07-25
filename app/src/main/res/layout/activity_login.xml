@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/loginView"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+
+
+            android:src="@drawable/logo_apugas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Bienvenido"
+            android:textSize="30sp"
+            android:textColor="@color/greenLogin"
+
+
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="40dp"
+            android:text="Ingrese sus datos."
+            android:textSize="18sp"
+
+            android:layout_gravity="start"/>
+
+        <EditText
+            android:id="@+id/usernameED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginHorizontal="55dp"
+            android:background="@drawable/input_login"
+            android:padding="12dp"
+            android:hint="Correo eléctronico"
+            android:textColorHint="@color/greenLogin"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/greenLogin"/>
+
+        <EditText
+            android:id="@+id/passwordED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="12dp"
+            android:layout_marginHorizontal="55dp"
+            android:background="@drawable/input_login"
+            android:hint="Contraseña"
+            android:textColorHint="@color/greenLogin"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/greenLogin"
+            />
+
+        <Switch
+            android:id="@+id/rememberAccountS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:buttonTint="@color/inputLogin"
+            android:text="Recordar cuenta"
+            android:textSize="16sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="start"
+            />
+
+        <Button
+            android:id="@+id/loginB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_login_circle"
+            android:text="Iniciar Sesión"
+            android:textAllCaps="false"
+            android:textColor="#FAF6F6"
+            android:textSize="24sp" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Si no tiene cuenta,"
+                android:textSize="16sp"
+
+                />
+            <TextView
+                android:id="@+id/registerLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text=" Registrese."
+                android:textSize="16sp"
+                android:textColor="@color/greenLogin"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
